@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FAQ — Memory Card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300;1,9..144,500&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0c0a13;--bg2:#12101c;--bg3:#181525;
+  --b1:#252235;--b2:#332f48;--b3:#453f60;
+  --tx:#e0dcea;--tx2:#7a7494;--tx3:#3e3a52;
+  --ac:#e8a030;--ac2:#a06a10;
+  --si-bg:rgba(100,140,240,.1);--si-tx:#8aabf0;
+  --r:6px;
+}
+html{scrollbar-width:thin;scrollbar-color:var(--b2) var(--bg)}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:3px}
+body{background:var(--bg);color:var(--tx);font-family:"DM Sans",sans-serif;font-size:15px;line-height:1.7;min-height:100vh}
+.wrap{max-width:740px;margin:0 auto;padding:0 24px}
+
+header{border-bottom:1px solid var(--b1);padding:20px 0 16px;position:sticky;top:0;z-index:100;background:rgba(12,10,19,.97);backdrop-filter:blur(10px)}
+.hdr{display:flex;align-items:center;gap:24px}
+.brand-link{text-decoration:none}
+.brand-title{font-family:"Fraunces",serif;font-style:italic;font-weight:300;font-size:24px;color:var(--ac);letter-spacing:-.5px;line-height:1}
+.brand-sub{font-size:9px;color:var(--tx3);letter-spacing:3px;margin-top:3px;font-weight:400}
+.nav{display:flex;gap:6px;margin-left:auto;align-items:center}
+.nav-link{font-size:12px;font-weight:400;color:var(--tx2);text-decoration:none;padding:6px 12px;border-radius:99px;border:1px solid transparent;transition:all .15s}
+.nav-link:hover{color:var(--tx);border-color:var(--b2)}
+.nav-faq{font-size:12px;font-weight:500;color:#1a1000;background:var(--ac);padding:6px 14px;border-radius:99px;text-decoration:none;transition:opacity .15s}
+.nav-faq:hover{opacity:.88}
+.nav-faq.current{background:var(--bg2);color:var(--ac);border:1px solid var(--b2)}
+
+.page-hero{padding:56px 0 40px;border-bottom:1px solid var(--b1)}
+.page-hero-label{font-size:10px;color:var(--tx3);letter-spacing:3px;font-family:"DM Mono",monospace;margin-bottom:14px}
+.page-hero-title{font-family:"Fraunces",serif;font-style:italic;font-weight:300;font-size:42px;color:var(--ac);letter-spacing:-.5px;line-height:1.1;margin-bottom:12px}
+.page-hero-sub{font-size:14px;color:var(--tx2);line-height:1.7}
+
+.faq-list{padding:0 0 60px}
+.faq-item{padding:36px 0;border-bottom:1px solid var(--b1)}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-family:"Fraunces",serif;font-style:italic;font-weight:300;font-size:22px;color:var(--tx);line-height:1.3;margin-bottom:14px}
+.faq-a{font-size:15px;color:var(--tx2);line-height:1.8}
+.faq-a p{margin-bottom:10px}
+.faq-a p:last-child{margin-bottom:0}
+.faq-a strong{color:var(--tx);font-weight:500}
+.faq-a a{color:var(--ac);text-decoration:none;border-bottom:1px solid var(--ac2)}
+.faq-a a:hover{color:var(--tx);border-color:var(--tx2)}
+.stat-row{display:flex;gap:16px;margin:18px 0;flex-wrap:wrap}
+.stat{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--r);padding:12px 18px;min-width:110px}
+.stat-num{font-family:"Fraunces",serif;font-weight:500;font-size:28px;color:var(--ac);line-height:1}
+.stat-lbl{font-size:11px;color:var(--tx2);font-family:"DM Mono",monospace;margin-top:4px;letter-spacing:.5px}
+.twitch-link{display:inline-flex;align-items:center;gap:8px;background:var(--si-bg);border:1px solid var(--si-tx);color:var(--si-tx);padding:8px 16px;border-radius:var(--r);text-decoration:none;font-weight:500;font-size:13px;margin-top:8px;transition:opacity .15s;border-bottom:none}
+.twitch-link:hover{opacity:.8}
+.twitch-dot{width:8px;height:8px;border-radius:50%;background:var(--si-tx);flex-shrink:0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hdr">
+    <a href="index.html" class="brand-link">
+      <div class="brand-title">Memory Card</div>
+      <div class="brand-sub">Every PS2 Game</div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Tracker</a>
+      <a href="faq.html" class="nav-faq current">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="page-hero">
+    <div class="page-hero-label">Frequently asked questions</div>
+    <div class="page-hero-title">What is this?</div>
+    <div class="page-hero-sub">Everything you need to know about the project.</div>
+  </div>
+
+  <div class="faq-list">
+
+    <div class="faq-item">
+      <div class="faq-q">Wait, every single PS2 game?</div>
+      <div class="faq-a">
+        <p>Yes. All <strong>4,482</strong> of them. Every single game officially released on the PS2, worldwide, in release order. There will be some difficulties, for examples, some games were released twice on the console, those will be skipped. Some games are completely untranslated. I will figure that out when the time comes. Does this mean I'm beating every single game? No. That's not the goal. I just want to at least play every single game.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Why the PS2?</div>
+      <div class="faq-a">
+        <p>The PS2, in my opinion, meets a playable standard of consistently good games. It's one of the first generations where developers were finally getting a real feel for 3D games and making them consistently good. Go back to the PS1 and a lot of the titles are pretty rough still. The N64 has its classics but not much else aged well.</p>
+        <p>On top of that, the PS2 has an enormous amount of Japanese games that made it to the West but nobody really talked about. I want to experience those games. I genuinely think it's one of the coolest generations ever made.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">You're only spending 30 minutes on most games?</div>
+      <div class="faq-a">
+        <p>For most games, yes. Let's be honest about what that looks like at scale:</p>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num">4,482</div><div class="stat-lbl">Games</div></div>
+          <div class="stat"><div class="stat-num">2,241</div><div class="stat-lbl">Hours minimum</div></div>
+          <div class="stat"><div class="stat-num">93</div><div class="stat-lbl">Days straight</div></div>
+        </div>
+        <p>That's if every single game only got 30 minutes. I'm obviously going to play a large chunk of these games through various different forms of completion. But there are games like sports games, mahjong and shogi games that I don't think I'll want to grind through. So I think 30 minutes is honest. Given the scale of this library, I think it's a generous amount of time to see what the game is like, document it, and move on.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What about games you can't really play like untranslated games, rhythm games without the controller?</div>
+      <div class="faq-a">
+        <p>This is tough. I've already experienced that with Drum Mania, where I instead used my beatmania controller to play. There are a lot of visual novels in this library, many of which I'm assuming are not translated to english. I will be figuring out what I can do about that. While barbaric, I might consider using google translate by pointing a spare phone at the screen. We'll figure it out as we approach those titles. Skipping games will always be a last resort.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What if you've already played a game before?</div>
+      <div class="faq-a">
+        <p>I will play it again. The point is to play every title on the list and to document it.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What about remakes and remasters? If a better version exists, why play the PS2 original?</div>
+      <div class="faq-a">
+        <p>This is something I thought about. I think a really good example of this is Persona 3. I will be playing the PS2 version of this game, I will not be playing the remake. I am considering in playing games that were ported to PC for convenience sake. I think something like this is harmless. I think acceptations to the remaster rule can be made and will be handled on a case-by-case basis.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What order are you playing them in?</div>
+      <div class="faq-a">
+        <p>Release order. The list on the tracker is as close to the full PS2 library sorted chronologically as I can get. It's likely that some are not exactly in the correct order, but that's okay since the main goal is to play and document the experience.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Who are you?</div>
+      <div class="faq-a">
+        <p>I'm a speedrunner and rhythm gamer who thought playing every PS2 game in existence was a reasonable thing to do with my time. Outside of this, I'm a regular person with a job, friends, and other hobbies. I'm passionate about this project, but I also have other things going on in my life and I tend to be free spirited in being led in the direction that feels right to me at any given point of time. I ask that you respect that be patient with me as I play through all of these games.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Where can I watch?</div>
+      <div class="faq-a">
+        <p>Live on Twitch:</p>
+        <a href="https://twitch.tv/afterimg_" class="twitch-link" target="_blank" rel="noopener">
+          <span class="twitch-dot"></span>
+          twitch.tv/afterimg_
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
