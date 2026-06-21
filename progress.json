@@ -176,6 +176,14 @@
     "dateDropped": "2026-06-20"
   },
   "18": {
-    "status": "inprogress"
+    "status": "inprogress",
+    "timeH": 1,
+    "timeM": 0,
+    "tags": [
+      "Great soundtrack",
+      "Genuinely difficult"
+    ],
+    "thoughts": "if I were into bullet hell games, if I didn't completely suck at them, I could see myself completing these. But because I'm literally trash at these, I think I'm good with the amount of time I put into it. One of the opening menu intros had the craziest song I've heard since starting this journey. What a banger!",
+    "dateStarted": "2026-06-20"
   }
 }
