@@ -19,7 +19,7 @@
     "dateDropped": "2026-05-22"
   },
   "2": {
-    "status": "inprogress",
+    "status": "played",
     "timeH": 0,
     "timeM": 42,
     "tags": [
@@ -27,7 +27,8 @@
       "Hidden gem"
     ],
     "thoughts": "The controls are really annoying and make the gameplay undesirable. I want to like this game, but it's hard to. I may come back to this game at-least once a week over time to see if I can get into it.",
-    "dateStarted": "2026-05-24"
+    "dateStarted": "2026-05-24",
+    "dateDropped": "2026-06-20"
   },
   "3": {
     "status": "played",
